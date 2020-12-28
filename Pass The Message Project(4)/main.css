@@ -1,0 +1,45 @@
+body{
+    min-height: 100vh;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    outline: 10px solid hotpink;
+    background-color: maroon;
+    padding: 1rem;
+    flex: 0 0 60%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#messageIn {
+    outline: deeppink;
+    border: deeppink;
+    text-align: center;
+    min-height: 5vh;
+    min-width: 20vh;
+    font-size: x-large;
+}
+
+#btn {
+    display: block;
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 1pc;
+    border: none;
+    color: white;
+    outline: deeppink;
+    background-color: deeppink;
+    padding: 0.5rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#btn:hover {
+    padding: 1rem 2rem;
+}
