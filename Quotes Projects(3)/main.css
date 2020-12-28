@@ -1,16 +1,40 @@
 body {
-    min-height: 98vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 400;
 }
 
 .container {
-    background-color: blueviolet;
-    width: 60vw;
-    height: 50vh;
+    text-align: center;
+    padding: 3rem;
+    outline: none;
+    color: orange;
+    background-color: black;
+    flex:0 0 60%;
 }
 
 #btn {
+    padding: 1vh;
+    border: none;
+    outline: none;
     max-height: 5vh;
+    cursor: pointer;
+}
+
+#btn:hover {
+    font-size: larger;
+}
+
+blockquote {
+    background-color: black;
+    border-left: 10px solid white;
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+
+#quoteAuthor{ 
+    font-weight: 500;
+    font-size: larger;
 }
