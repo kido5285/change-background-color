@@ -1,0 +1,16 @@
+body {
+    min-height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: blueviolet;
+    width: 60vw;
+    height: 50vh;
+}
+
+#btn {
+    max-height: 5vh;
+}

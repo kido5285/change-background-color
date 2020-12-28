@@ -1,0 +1,34 @@
+body {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.hexColor {
+    font-weight: 100;
+}
+
+.hex {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.btn {
+    color: gray;
+    outline: none;
+    border-radius: 1pc;
+    border: aqua;
+    background-color: aqua;
+    padding: 1.5vh;
+}
+
+.btn:hover {
+    font-weight: 200;
+    background-color: navy;
+    color: #546e7a;
+}
