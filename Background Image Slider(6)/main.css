@@ -1,0 +1,69 @@
+body{
+    background: url("img/background.jpg.jpg")center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 5px solid;
+    border-radius: 1pc;
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url("img/bcg-1.jpg")center/cover no-repeat;
+    box-shadow: 1px 6px 26px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 6px 26px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 26px 5px rgba(0,0,0,0.75);
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.prevBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border: 3px solid springgreen;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    outline: none;
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.nextBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    outline: none;
+    transform: translate(50%, -50%);
+    border: 3px solid springgreen;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.prevBtn:hover {
+    background-color: springgreen;
+    border-color: teal;
+}
+
+.nextBtn:hover {
+    background-color: springgreen;
+    border-color: teal;
+}
