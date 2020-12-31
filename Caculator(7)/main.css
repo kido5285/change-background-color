@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    text-align: right;
+    font-size: 2rem;
+    width: 670px;
+    height: 53px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 151.5px;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+    border: gray;
+    outline: gray;
+}
+
+.btn-equal:hover {
+    background-color: greenyellow;
+    border: greenyellow;
+    outline: greenyellow;
+}
+
+.btn-clear:hover {
+    background-color: red;
+    border: red;
+    outline: red;
+}
