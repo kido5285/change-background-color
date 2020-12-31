@@ -1,0 +1,92 @@
+.logo {
+    max-width: 270px;
+    max-height: 72px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.3rem solid black;
+    margin-bottom: -16px;
+}
+ 
+.navbar_btn {
+    align-self: center;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.bar1,.bar2,.bar3 {
+    width: 30px;
+    height: 5px;
+    margin: 0.5rem;
+    background: black;
+    transition: all 1s ease;
+}
+
+.change .bar1{
+    transform: rotate(-45deg) translate(-10px, 10px);
+}
+
+.change .bar2{
+    opacity: 0;
+}
+
+.change .bar3{
+    transform: rotate(45deg) translate(-8px, -9px);
+}
+
+.navbar_links {
+    list-style-type: none;
+    transition: all 2s ease;
+    padding-left: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.navbar_collapse {
+    height: 255.2px;
+}
+
+i {
+    margin-right: 1rem;
+}
+
+.navbar_singleLink {
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.navbar_singleLinkTextStyle {
+    display: block;
+    border-bottom: 0.3rem solid black;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+.navbar_singleLink:hover {
+    padding-left: 1.5rem;
+    background: #cccccc;
+}
+
+.else {
+    padding-top: 1rem;
+    padding-left: 14%;
+    padding-right: 10%;
+    font-family: 'Noto IKEA', 'Noto Sans', 'Roboto', 'Open Sans', -apple-system, sans-serif !important;
+}
+
+
+.img {
+    margin-top: 3pc;
+}
